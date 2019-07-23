@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo Starting VM: $*
-VBoxManage registervm /root/VirtualBox\ VMs/$*/$*.vbox
+VBoxManage registervm /VirtualBox\ VMs/$*/$*.vbox
 VBoxHeadless -s "$*"
